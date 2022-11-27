@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_menu">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ranking"
+            android:icon="@drawable/ic_baseline_trending_up_24"
+            android:title="Ranking" />
+        <item
+            android:id="@+id/nav_list"
+            android:icon="@drawable/ic_baseline_list_24"
+            android:title="List" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_baseline_chat_bubble_24"
+            android:title="Chat" />
+        <item
+            android:id="@+id/nav_alarm"
+            android:icon="@drawable/ic_baseline_alarm_24"
+            android:title="Alarm Manager" />
+    </group>
+</menu>
